@@ -1,0 +1,21 @@
+{
+  "name": "proyectonodecrud",
+  "version": "0.0.1",
+  "description": "Proyecto CRUD mongo y node",
+  "main": "scr/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Oky",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0"
+  }
+}
